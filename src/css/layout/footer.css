@@ -1,23 +1,42 @@
+.footer {
+    background: linear-gradient(to bottom, black, #7D1D1D);
+    color: white;
+}
+
+.footer__menu {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.footer__menu-link { 
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+.footer__menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-contact {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.footer__social {
+    display: flex;
+    gap: 10px;
+}
 .footer__address {
-    color: white;
+    font-style: normal;
 }
 
-.footer__contact-title{ 
-    color: white;
+.footer__legal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-decoration: underline;
 }
-
-.footer__menu-title {
-    color: white;
-}
-
-.footer__menu-link {
-    color: white;
-}
-
-.contenus2 {
-    color: white;
-}   
-
-.contenus3 {
-    color: white;
-}   

@@ -1,15 +1,26 @@
 body {
     background-color: rgb(0, 0, 0);
+    font-family: var(--font-primary);
 }
 
 .main__paragraphe {
     color: rgb(255, 255, 255);
     margin-right: 20px;
     margin-left: 20px;  
+    
+    font-size: 17px;
 }
 
 .photo-clown__PA {
-    margin-left: 170px;
+    margin-left: 155px;
+    margin-bottom: -25px;
+
+}
+
+.main__partenaires {
+    margin-left: 70px;
+    margin-bottom: 100px;
+
 }
 
 .texte__title {

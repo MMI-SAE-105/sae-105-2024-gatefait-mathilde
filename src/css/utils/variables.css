@@ -1,26 +1,6 @@
 :root {
-    /* Color styles */
-    --primary: ;
     
-
-    /* Text-size styles */
-    --fs-xs: 0.75rem;
-    --fs-s: 0.875rem;
-    --fs-md: 1rem;
-    --fs-lg: 1.375rem;
-    --fs-xl: 1.5rem;
-    --fs-2xl: 2.1875rem;
-    --fs-3xl: 2.625rem;
-    --fs-4xl: 3.125rem;
-
     /* Font-family styles */
-    --font-sans-serif: "Inter", sans-serif;
-    --font-serif: "Playfair Display", serif;
-
-    /* Espaces */
-    --space1x: 10px;
-    --space2x: 20px;
-    --space3x: 40px;
-    --space4x: 80px;
-    --space5x: 120px;
-}
+    --font-primary: 'Alef', sans-serif;
+    --font-secondary: 'creepsterregular'; 
+    
