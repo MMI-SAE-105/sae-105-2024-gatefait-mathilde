@@ -26,4 +26,7 @@
 @import "layout/footer.css";
 
 /* Components */ 
+@import "components/movie.css";
+@import "components/bouton.css";
+@import "components/menu.css";
 

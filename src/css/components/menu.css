@@ -1,0 +1,31 @@
+.headermenu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.headermenu[aria-hidden="false"] {
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}

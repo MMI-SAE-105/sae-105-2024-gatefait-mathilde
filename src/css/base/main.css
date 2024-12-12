@@ -2,22 +2,21 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-h1 {
-    font-family: 'creepsterregular';
-
-}
-
 .main__paragraphe {
     color: rgb(255, 255, 255);
+    margin-right: 20px;
+    margin-left: 20px;  
 }
 
-.main__bouton {
-    color: rgb(255, 255, 255);
+.photo-clown__PA {
+    margin-left: 170px;
 }
 
 .texte__title {
     color: rgb(255, 255, 255);
 }
+
+
 
 .texte__paragraphe {
     color: rgb(255, 255, 255);
@@ -93,29 +92,7 @@ h1 {
      box-sizing: border-box;
  }
 
- .movie {
-     text-align: center;
- }
 
- .movie img {
-     max-width: 100%;
-     height: auto;
-     border: 2px solid white;
-     border-radius: 8px;
- }
-
- .movie-title {
-    color: white;
-     margin-top: 10px;
-     font-size: 1.2em;
-     font-weight: bold;
- }
-
- .movie-director {
-    color: white;
-     font-size: 1em;
-     font-style: italic;
- }
 
  .texte-fin{
     color: white;
@@ -192,3 +169,4 @@ h1 {
 .contenus-page-OL__paragraphe {
     color: white;   
 }
+

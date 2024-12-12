@@ -1,0 +1,23 @@
+ .movie {
+     text-align: center;
+ }
+
+ .movie img {
+     max-width: 100%;
+     height: auto;
+     border: 2px solid white;
+     border-radius: 8px;
+ }
+
+ .movie__title {
+     color: white;
+     margin-top: 10px;
+     font-size: 1.2em;
+     font-weight: bold;
+ }
+
+ .movie__director {
+     color: white;
+     font-size: 1em;
+     font-style: italic;
+ }

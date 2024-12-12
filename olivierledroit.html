@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/style.css">
-    <script type="module" src="/src/js/script.js"></script>
-    <title>Olivier Ledroit</title>
+    <script type="module" src="/src/script.js"></script>
+    <title>Page d'accueil</title>
 </head>
 
 <body>
@@ -14,7 +14,36 @@
         <div class="header__container">
             <img class="header__logo" src="/assets/icons/logo-header.svg" alt="logo">
             <h1 class="header__title">Festiv'Halloween</h1>
-            <img class="header__menu-icon" src="/assets/icons/menu.svg" alt="menu">
+
+
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <img class="menu-btn__btn" src="/assets/icons/menu.svg" alt="menu">
+            </button>
+            <nav class="headermenu" id="mainNav" aria-hidden="true">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a class="menu__link" href="/index.html">Festiv'Festiv’Halloween</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/apropos.html">À PROPOS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/programme.html">Programme</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/filmographie.html">FILMOGRAPHIE</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/invites.html">INVITÉS</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/infospratiques.html">INFOS PRATIQUES</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>

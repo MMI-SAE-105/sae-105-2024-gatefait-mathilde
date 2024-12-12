@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/style.css">
-    <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/script.js"></script>
     <title>Page d'accueil</title>
 </head>
 
@@ -13,12 +13,43 @@
     <div class="header__container">
          <img class="header__logo" src="/assets/icons/logo-header.svg" alt="logo">
          <h1 class="header__title">Festiv'Halloween</h1>
-         <img class="header__menu-icon" src="/assets/icons/menu.svg" alt="menu">
+         
+
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <img class="menu-btn__btn" src="/assets/icons/menu.svg" alt="menu">
+        </button>
+        <nav class="headermenu" id="mainNav" aria-hidden="true">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="/index.html">Festiv'Festiv’Halloween</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/apropos.html">À PROPOS</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/programme.html">Programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/filmographie.html">FILMOGRAPHIE</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/invites.html">INVITÉS</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/infospratiques.html">INFOS PRATIQUES</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        </header>
     </div>
-        <a class="header__title1">
-         <img class="header__image1" src="/assets/img/photo-accueil.webp" alt="photo-accueil">
-         <p class="header__text1">Festiv'Halloween</p>
-         <p class="header__date1">29-31 octobre 2024</p>
+        <a class="header-title1">
+         <img class="header-title1__image1" src="/assets/img/photo-accueil.webp" alt="photo-accueil">
+         <p class="header-title1__text1">Festiv'<br>Halloween</p>
+         <p class="header-title1__date1">29-31 octobre 2024</p>
         </a>
     </header>
     <main class="main">
@@ -33,11 +64,16 @@
             de la nuit.
             En harmonie avec la période d’halloween, ce dernier se déroulera pendant les nuits du 29, 30 et 31 octobre 2024.</p>
         </div>
-        <img src="/assets/img/clown.webp" alt="clown">
-            <button class="rectangular-button">Programme</button>
-            <button class="rectangular-button">Invités</button>
-            <button class="rectangular-button">Filmographie</button>
-            <button class="rectangular-button">Infos pratiques</button>
+        <div class = "photo-clown">
+        <img class="photo-clown__PA" src="/assets/img/clown.webp" alt="clown">
+        </div>
+        <section class="rectangular-button">
+            <button class="rectangular-button__1">Programme</button>
+            <button class="rectangular-button__2">Invités</button>
+            <button class="rectangular-button__3">Filmographie</button>
+            <button class="rectangular-button__4">Infos pratiques</button>
+        </section>
+            
         <div class=" main__partenaires">
             <img class="main__partenaire1" src="/assets/icons/logo-montbe.svg" alt="logo">
             <img class="main__parteniare2" src="/assets/icons/logo-nfc.svg" alt="logo">
