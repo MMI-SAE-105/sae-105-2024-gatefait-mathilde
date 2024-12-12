@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: 'creepsterregular';
+
+}
+
+.main__paragraphe {
+    color: rgb(255, 255, 255);
+}
+
+.main__bouton {
+    color: rgb(255, 255, 255);
+}
+
+.texte__title {
+    color: rgb(255, 255, 255);
+}
+
+.texte__paragraphe {
+    color: rgb(255, 255, 255);
+}
+
+.texte2 {
+    color: white;
+}
+
+.texte3 {
+    color: white;
+}
+
+.lienpdf a {
+    color: rgb(255, 255, 255);
+    
+}
+
+.titreenfant {
+    color: white;
+}
+
+.categorieenfant {
+    color: white;
+}
+
+.movies-enfants {
+    color: white;
+}
+ 
+.movies-enfants {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.movie {
+    text-align: center;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.movie-title {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.movie-director {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.categorie16ans {
+    color: rgb(255, 0, 0);
+}
+
+ .movies-16 {
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: 20px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+     box-sizing: border-box;
+ }
+
+ .movie {
+     text-align: center;
+ }
+
+ .movie img {
+     max-width: 100%;
+     height: auto;
+     border: 2px solid white;
+     border-radius: 8px;
+ }
+
+ .movie-title {
+    color: white;
+     margin-top: 10px;
+     font-size: 1.2em;
+     font-weight: bold;
+ }
+
+ .movie-director {
+    color: white;
+     font-size: 1em;
+     font-style: italic;
+ }
+
+ .texte-fin{
+    color: white;
+ }
+
+ .introcasper {
+    color: white;
+ }  
+
+ .contenus__casper {
+    color: white;
+ }  
+
+ .texte-infos__titre {
+    color: white;
+ }
+
+ .texte-infos__contenus {
+    color: white;
+ }
+
+ .FAQ {
+    color: white;
+ }
+
+ .form-container{
+    color: white;
+ }
+
+ .formulaire {
+    color: white;   
+ }
+
+ .contact-num {
+    color: white;
+ }
+
+ .ensemble-invites {
+    color: white;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+     padding: 20px;
+     max-width: 1000px;
+     margin: 0 auto;
+ }
+
+ .invites {
+     text-align: center;
+ }
+
+ .invites img {
+     max-width: 100%;
+     height: auto;
+     border: 2px solid white;
+     border-radius: 8px;
+ }
+
+.invites-title {
+    color: white;
+     margin-top: 10px;
+     font-size: 1.2em;
+     font-weight: bold;
+ }
+
+.contenus-OL {
+    color: white;
+}
+
+.contenus-page-OL__title {
+    color: white;
+}   
+
+.contenus-page-OL__paragraphe {
+    color: white;   
+}

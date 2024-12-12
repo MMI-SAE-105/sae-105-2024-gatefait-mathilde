@@ -1,0 +1,34 @@
+
+
+
+/* Étendre le header à la largeur totale */
+
+
+.header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header__title1 {
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.header__paragraphe1 {
+    color: rgb(255, 255, 255);
+
+}
+
+.header__title {
+    color: white;
+}
+
+.header__paragraphe {
+    color: white;
+}
+
+.header {
+    color: white;
+}
