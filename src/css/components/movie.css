@@ -1,23 +1,49 @@
- .movie {
-     text-align: center;
- }
 
- .movie img {
-     max-width: 100%;
-     height: auto;
-     border: 2px solid white;
-     border-radius: 8px;
- }
+.movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
 
- .movie__title {
-     color: white;
-     margin-top: 10px;
-     font-size: 1.2em;
-     font-weight: bold;
- }
+.movie__title {
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
- .movie__director {
-     color: white;
-     font-size: 1em;
-     font-style: italic;
- }
+.movie__director {
+    font-size: 17px;
+    color: white;
+    font-size: 1em;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*enfant*/
+
+.movies-enfants {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+ /*parents */
+
+.movies-16 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}

@@ -6,12 +6,13 @@
     right: 0;
     bottom: 0;
     z-index: 1;
-    background: black;
+    background: #420807;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
+    
 }
 
 .headermenu[aria-hidden="false"] {
@@ -23,9 +24,16 @@
     background: none;
     border: none;
     color: white;
-    font-size: 2rem;
+    font-size: 35px;
     cursor: pointer;
     top: 20px;
     right: 20px;
     z-index: 1000;
+}
+
+.menu {
+    font-size: 50px;
+    list-style: none;
+    color: white;
+    line-height: 2;
 }

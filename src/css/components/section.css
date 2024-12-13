@@ -1,0 +1,149 @@
+.texte__title {
+    color: white;
+    font-family: var(--font-secondary);
+    font-size: 35px;
+    position: relative;
+}
+
+.texte__title::after {
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.texte__title2 {
+    color: white;
+    font-family: var(--font-secondary);
+    font-size: 35px;
+}
+
+.texte__title2::after {
+    content: "";
+    display: inline-block;
+    width: 255px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.texte__title3 {
+    color: white;
+    font-family: var(--font-secondary);
+    font-size: 35px;
+}
+
+.texte__title3::after {
+    content: "";
+    display: inline-block;
+    width: 255px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.texte {
+    color: white;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.texte2 {
+    color: white;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+   
+.texte3 {
+    color: white;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 85px;
+    font-size: 17px;
+}
+
+
+.contenus__page--title {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 17px;
+    position: relative; 
+}
+
+.contenus__page--paragraphe {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 17px;
+    position: relative;
+
+}
+
+.texte-infos__titre {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: var(--font-secondary);
+    font-size: 35px;
+    position: relative;
+}
+
+.texte-infos__contenus {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 17px;
+    position: relative;
+}
+
+
+/* page infos pratiques*/
+
+.FAQ__title {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 17px;
+    position: relative;
+}
+
+.FAQ__contenus {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 17px;
+    position: relative;
+}
+
+

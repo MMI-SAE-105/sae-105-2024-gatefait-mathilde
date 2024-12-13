@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(to bottom, black, #7D1D1D);
+    background: linear-gradient(to bottom, black, #730503);
     color: white;
 }
 
@@ -23,6 +23,7 @@
 .footer-contact {
     margin-left: 20px;
     line-height: 1.5;
+    margin-top: 50px;
 }
 
 .footer__social {

@@ -1,0 +1,23 @@
+.header2__image {
+    opacity: 0.5;
+}
+
+.header2__title {
+    color: white;
+    font-family: var(--font-secondary);
+    font-size: 35px;
+    left: 20px;
+    margin-top: -140px;
+    position:absolute
+}
+
+.header2__image2 {
+    margin-top: -5px;
+}
+
+.header2__paragraphe {
+    color: white;
+    font-size: 17px;
+    font-weight: 700; 
+    margin-left: 20px;
+    margin-right: 20px;

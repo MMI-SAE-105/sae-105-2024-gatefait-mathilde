@@ -2,6 +2,7 @@ body {
     background-color: rgb(0, 0, 0);
     font-family: var(--font-primary);
 }
+/*page accueil*/ 
 
 .main__paragraphe {
     color: rgb(255, 255, 255);
@@ -11,173 +12,148 @@ body {
     font-size: 17px;
 }
 
-.photo-clown__PA {
-    margin-left: 155px;
-    margin-bottom: -25px;
-
-}
-
 .main__partenaires {
     margin-left: 70px;
     margin-bottom: 100px;
-
-}
-
-.texte__title {
-    color: rgb(255, 255, 255);
 }
 
 
-
-.texte__paragraphe {
-    color: rgb(255, 255, 255);
-}
-
-.texte2 {
-    color: white;
-}
-
-.texte3 {
-    color: white;
-}
+/*page programme*/ 
 
 .lienpdf a {
     color: rgb(255, 255, 255);
     
 }
 
-.titreenfant {
-    color: white;
-}
+/* page filmographie*/
 
 .categorieenfant {
-    color: white;
-}
-
-.movies-enfants {
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-secondary);
+    font-size: 1.5em;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
  
-.movies-enfants {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.movie {
-    text-align: center;
-}
-
-.movie img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid white;
-    border-radius: 8px;
-}
-
-.movie-title {
-    margin-top: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-.movie-director {
-    font-size: 1em;
-    font-style: italic;
-}
-
+.categorieenfant::after {
+    background-color: rgb(255, 255, 255);
+    content: "";
+    display: inline-block;
+    width: 160px;
+    height: 3px;
+    border-radius: 3px;
+    margin-left: 20px;
+    vertical-align: middle;
+    }
+    
 .categorie16ans {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: var(--font-secondary);
+    font-size: 1.5em;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
- .movies-16 {
-     max-width: 1000px;
-     margin: 0 auto;
-     padding: 20px;
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     gap: 20px;
-     box-sizing: border-box;
- }
-
-
+.categorie16ans::after {
+    background-color: rgb(255, 255, 255);
+    content: "";
+    display: inline-block;
+    width: 160px;
+    height: 3px;
+    border-radius: 3px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
 
  .texte-fin{
     color: white;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    margin-bottom: 100px;
  }
+
+ /*page casper en détails*/ 
 
  .introcasper {
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+
  }  
 
- .contenus__casper {
+.lienBA {
+    color : white;
+}
+
+
+/*page infos pratiques*/
+
+.popcorn__image {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 150px; 
+}
+
+ .FAQ__titre {
+    margin-top: 70px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+        font-family: var(--font-secondary);
+        font-size: 35px;
+ }
+
+/*page contact*/
+
+ .contact-num__title {
+    font-family: var(--font-secondary);
+    font-size: 35px;
     color: white;
- }  
-
- .texte-infos__titre {
-    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
  }
 
- .texte-infos__contenus {
-    color: white;
- }
+ .contact-num__paragraphe {
+    color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right:20px;
+    line-height: 2;
+}
 
- .FAQ {
-    color: white;
- }
+.footer__social {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
- .form-container{
-    color: white;
- }
 
- .formulaire {
-    color: white;   
- }
-
- .contact-num {
-    color: white;
- }
-
- .ensemble-invites {
-    color: white;
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     gap: 20px;
-     padding: 20px;
-     max-width: 1000px;
-     margin: 0 auto;
- }
-
- .invites {
-     text-align: center;
- }
-
- .invites img {
-     max-width: 100%;
-     height: auto;
-     border: 2px solid white;
-     border-radius: 8px;
- }
-
-.invites-title {
-    color: white;
-     margin-top: 10px;
-     font-size: 1.2em;
-     font-weight: bold;
- }
+ /*page ol*/ 
 
 .contenus-OL {
-    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;  
 }
 
 .contenus-page-OL__title {
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }   
 
 .contenus-page-OL__paragraphe {
     color: white;   
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
 }
-

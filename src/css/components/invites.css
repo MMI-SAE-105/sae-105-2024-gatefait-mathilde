@@ -1,0 +1,26 @@
+ .ensemble-invites {
+     color: white;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+     padding: 20px;
+     max-width: 1000px;
+     margin: 0 auto;
+    text-align: center;
+ }
+
+ .invites img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 8px;
+ }
+
+ .invites__title {
+    margin-top: 20px;
+     color: white;
+     margin-top: 8px;
+     font-size: 17px;
+     line-height: 1;;
+    text-decoration: underline;
+ }
+

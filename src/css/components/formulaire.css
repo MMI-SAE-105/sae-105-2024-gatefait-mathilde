@@ -1,0 +1,21 @@
+
+.formulaire {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+   
+.formulaire__title {
+        font-family: var(--font-secondary);
+        font-size: 35px;
+        margin-left: 60px;
+        margin-right: 60px;
+}
+
+.formulaire__paragraphe {
+    font-family: var(--font-primary);
+    font-size: 17px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+} 
