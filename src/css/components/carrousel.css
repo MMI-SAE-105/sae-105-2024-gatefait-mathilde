@@ -25,15 +25,18 @@
   margin-right: 20px;
 }
 
-.carousel__bouton {;
-    align-items: center;
+.carousel__bouton {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .carousel__button--prev {
     transform: rotate(180deg);
+    background-color: #730503;
   
 }
 
 .carousel__button--next {
-
+background-color: #730503;
 }

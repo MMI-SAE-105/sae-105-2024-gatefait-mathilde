@@ -19,7 +19,8 @@ if (toggle && nav) {
 /*lightbox*/
 
 const lightBox = document.querySelector("#lightbox");
-const lightBoxImg = lightBox.querySelector("img");
+if (lightBox) {
+  const lightBoxImg = lightBox.querySelector("img");
 
 document.body.addEventListener("click", (evt)=> {
     console.log(evt.target);
@@ -37,11 +38,11 @@ document.body.addEventListener("click", (evt)=> {
         lightBox.close();
     }, {once: true});
 });
-
+}
 
 /*carrousel*/ 
 
-const carousel = document.querySelector(".section__carousel");
+const carousel = document.querySelector(".carousel");
 const prevButton = document.querySelector(".carousel__button--prev");
 const nextButton = document.querySelector(".carousel__button--next");
 const premierItem = document.querySelector(".carousel__item");
