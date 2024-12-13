@@ -8,14 +8,19 @@
 .formulaire__title {
         font-family: var(--font-secondary);
         font-size: 35px;
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
 }
 
 .formulaire__paragraphe {
     font-family: var(--font-primary);
+    color: grey;
     font-size: 17px;
-    margin-left: 60px;
+    margin-left: 20px;
     margin-right: 60px;
-    
-} 
+    border: solid 1px white;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
