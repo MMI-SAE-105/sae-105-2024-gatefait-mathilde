@@ -32,8 +32,14 @@
 }
 
 .menu {
-    font-size: 50px;
+    font-size: 30px;
     list-style: none;
     color: white;
-    line-height: 2;
+    line-height: 3;
+}
+
+.menu__link {
+   color: white;
+    text-decoration: none;
+    margin-left: -150px;
 }

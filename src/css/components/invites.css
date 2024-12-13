@@ -16,11 +16,22 @@
  }
 
  .invites__title {
+     font-size: 17px;
+     color: white;
+     margin-top: 10px;
+     font-size: 17px;
+     font-weight: bold;
+ }
+
+ .invites__nom {
     margin-top: 20px;
      color: white;
      margin-top: 8px;
      font-size: 17px;
      line-height: 1;;
-    text-decoration: underline;
+    font-size: 1em;
+    font-style: italic;
  }
 
+
+  

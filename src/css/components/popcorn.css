@@ -1,0 +1,29 @@
+.popcorn__image {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.popcorn {
+    display: flex;
+}
+
+.popcorn__texteensemble {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.popcorn__texteensemble__titre {
+    font-family: var(--font-secondary);
+    font-size: 35px;
+    color: white;
+}
+
+.popcorn__texteensemble__paragraphe {
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 17px;
+}

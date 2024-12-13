@@ -13,16 +13,20 @@ body {
 }
 
 .main__partenaires {
-    margin-left: 70px;
-    margin-bottom: 100px;
+    padding-top: 150px;
+    text-align: center;
+  
 }
+
+
 
 
 /*page programme*/ 
 
 .lienpdf a {
     color: rgb(255, 255, 255);
-    
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* page filmographie*/
@@ -40,10 +44,11 @@ body {
     background-color: rgb(255, 255, 255);
     content: "";
     display: inline-block;
-    width: 160px;
+    width: 100px;
     height: 3px;
     border-radius: 3px;
     margin-left: 20px;
+    margin-right: 20px;
     vertical-align: middle;
     }
     
@@ -69,7 +74,7 @@ body {
 
  .texte-fin{
     color: white;
-    margin-top: 85px;
+    margin-top: 150px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 17px;
@@ -82,23 +87,17 @@ body {
     color: white;
     margin-left: 20px;
     margin-right: 20px;
-
  }  
 
 .lienBA {
     color : white;
 }
 
+.contenus__casper {
+    text-align: center;
+}
 
 /*page infos pratiques*/
-
-.popcorn__image {
-    margin-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: 20px;
-    width: 150px; 
-}
 
  .FAQ__titre {
     margin-top: 70px;
@@ -141,14 +140,12 @@ body {
     margin-bottom: 60px;
     margin-left: 20px;
     margin-right: 20px;
-    color: white;  
 }
 
-.contenus-page-OL__title {
+.contenus-OL__texte {
     color: white;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 20px;
+    
 }   
 
 .contenus-page-OL__paragraphe {

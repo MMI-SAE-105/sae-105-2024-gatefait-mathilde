@@ -1,6 +1,7 @@
 .footer {
     background: linear-gradient(to bottom, black, #730503);
     color: white;
+    margin-top: 150px;
 }
 
 .footer__menu {
@@ -29,6 +30,7 @@
 .footer__social {
     display: flex;
     gap: 10px;
+    margin-left: -1px;
 }
 .footer__address {
     font-style: normal;
@@ -40,4 +42,10 @@
     align-items: center;
     justify-content: center; 
     text-decoration: underline;
+}
+
+.footer__mentionslegales {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 7px;
 }

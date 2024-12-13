@@ -8,11 +8,12 @@
 .texte__title::after {
     content: "";
     display: inline-block;
-    width: 200px;
+    width: 160px;
     height: 3px;
     border-radius: 3px;
     background-color: rgb(255, 255, 255);
     margin-left: 20px;
+    margin-right: 20px;
     vertical-align: middle;
 }
 
@@ -25,11 +26,12 @@
 .texte__title2::after {
     content: "";
     display: inline-block;
-    width: 255px;
+    width: 219px;
     height: 3px;
     border-radius: 3px;
     background-color: rgb(255, 255, 255);
     margin-left: 20px;
+    margin-right: 20px;
     vertical-align: middle;
 }
 
@@ -42,11 +44,12 @@
 .texte__title3::after {
     content: "";
     display: inline-block;
-    width: 255px;
+    width: 216px;
     height: 3px;
     border-radius: 3px;
     background-color: rgb(255, 255, 255);
     margin-left: 20px;
+    margin-right: 20px;
     vertical-align: middle;
 }
 
@@ -98,7 +101,9 @@
 
 }
 
-.texte-infos__titre {
+/* page infos pratiques*/
+
+.autretextuelpopcorn__1--titre {
     margin-top: 70px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -107,9 +112,10 @@
     font-family: var(--font-secondary);
     font-size: 35px;
     position: relative;
+
 }
 
-.texte-infos__contenus {
+.autretextuelpopcorn__1--texte {
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -121,8 +127,10 @@
     position: relative;
 }
 
+.autretextuelpopcorn {
+    margin-top: -150px;
+}
 
-/* page infos pratiques*/
 
 .FAQ__title {
     margin-top: 70px;
@@ -145,5 +153,3 @@
     font-size: 17px;
     position: relative;
 }
-
-
